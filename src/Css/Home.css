@@ -1,0 +1,176 @@
+.hero__section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    background: #F5F5F7;
+    margin-top: 2rem;
+    border-radius: 0rem 10rem;
+
+
+}
+
+.home_conatineer {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+}
+
+.hero {
+    width: 100%;
+    transition: all 1s ease;
+    border-radius: 50%;
+
+}
+
+.hero:hover {
+    transform: rotate(-35deg)scale(1.2);
+}
+
+
+.buy__btn {
+    display: inline-block;
+    background: #0CDC9C;
+    padding: 1.2rem 3rem;
+    border-radius: 2rem;
+    color: white;
+    border: 1px solid transperent;
+    margin-top: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+
+.buy__btn:hover {
+    color: black;
+    background: transparent;
+    border: 1px black;
+    border: 1px solid #0CDC9C;
+    transition: all 0.5s ease;
+
+
+
+}
+
+
+.hero__h2 {
+    font-size: 4rem;
+    color: #0CDC9C;
+    line-height: 1.1;
+    font-weight: 900;
+}
+
+
+.hero_subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.hero_subtitle2 {
+    margin-top: 1rem;
+    max-width: 30rem;
+    font-weight: 300;
+}
+
+/* Media Querry for Medium Devices  */
+
+@media screen and (max-width:1024px) {
+    .home_conatineer {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        width: 80%;
+        gap: 10rem;
+    }
+
+
+    .hero_subtitle {
+        text-align: center;
+
+    }
+
+
+    .hero_subtitle2 {
+        text-align: center;
+    }
+
+    .hero__h2 {
+        text-align: center;
+    }
+
+
+    .buy__btn {
+        position: absolute;
+        left: 32%;
+        
+       
+    }
+
+
+}
+
+/* Media Qurrey > Small Devices*/
+
+
+@media screen and (max-width:600px) {
+
+    .home_conatineer {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        width: 90%;
+        gap: 10rem;
+    }
+
+
+    .hero_subtitle {
+        text-align: center;
+
+    }
+
+
+    .hero_subtitle2 {
+        text-align: center;
+    }
+
+    .hero__h2 {
+        text-align: center;
+    }
+
+
+    .buy__btn {
+        position: absolute;
+        left: 32%;
+        
+       
+    }
+
+
+
+
+
+
+}
+
+.timer__countdown{
+    background: var(--primary-color);
+    height: 325px;
+}
+
+.timer__countdown img{
+    width: 70% !important;
+    height: 70% !important;
+    object-fit:contain ;
+
+}
+
+.store__btn{
+    color: #fff;
+    text-decoration: none;
+    
+}

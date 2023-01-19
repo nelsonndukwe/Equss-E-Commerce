@@ -1,0 +1,11 @@
+.clock__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2;
+}
+
+.clock__data {
+    display: flex;
+    align-items: center;
+    gap: 2;
+}

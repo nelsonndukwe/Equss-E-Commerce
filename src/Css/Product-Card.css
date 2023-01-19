@@ -1,0 +1,43 @@
+.product__item{
+    cursor: pointer;
+}
+
+.product__information h3 a{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-top: 15px;
+
+}
+
+.product__information span{
+    font-size: 0.9rem;
+}
+
+.product__information:hover{
+    color: inherit
+}
+
+.product__name{
+    text-decoration:none ;
+    color: var(--primary-color)
+
+}
+
+.product__price{
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.add_icon{
+    font-size: 1.2rem;
+    padding: 5px;
+    background: #0CDC9C;
+    color: var(--primary-color);
+    border-radius: 5px 5px;
+}
+
+.product_card_bottom{
+    border: 1px solid #0CDC9C;
+}
